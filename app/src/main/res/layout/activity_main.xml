@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- main vertical container -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <!-- attempt label -->
+    <TextView
+        android:id="@+id/attemptText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attempt: 1"
+        android:textSize="20sp"/>
+
+
+    <!-- user number input -->
+    <EditText
+        android:id="@+id/guessInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter number 1-10"
+        android:inputType="number"
+        android:layout_marginTop="15dp"/>
+
+
+    <!-- guess button -->
+    <Button
+        android:id="@+id/guessButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guess"
+        android:layout_marginTop="15dp"/>
+
+
+    <!-- output -->
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
